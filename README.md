@@ -10,16 +10,16 @@ Stalkify is currently under Spotify's development mode API quota, meaning that n
 
 ### See playlist modifications
 
-...
+![](https://github.com/natalierobbins/stalkify/blob/902e89446a9665c922ccb038aeb2f71e4bd063cf/previews/all.png)
 
 ### Add and remove targets
 
-...
+![](https://github.com/natalierobbins/stalkify/blob/902e89446a9665c922ccb038aeb2f71e4bd063cf/previews/targets.png)
 
 ### Filter by user
 
-...
+![](https://github.com/natalierobbins/stalkify/blob/902e89446a9665c922ccb038aeb2f71e4bd063cf/previews/target-filter.png)
 
 ### Filter by playlist
 
-...
+![](https://github.com/natalierobbins/stalkify/blob/902e89446a9665c922ccb038aeb2f71e4bd063cf/previews/playlist-filter.png)
