@@ -1,0 +1,16 @@
+const express = require('express')
+const router = express.Router()
+const { signInUser, authorizeUser, getNotifications, addTarget, removeTarget, readNotifications, getTargetName, stalk } = require('../controllers/stalker.js')
+const { getTargets } = require('../middleware/stalker')
+const { getResponse } = require('../middleware/helper')
+
+router.get('/sign-in', signInUser)
+router.get('/authorize', authorizeUser)
+router.get('/:stalker_id', getTargets, stalk)
+router.get('/:stalker_id/targets', getTargets, getResponse)
+router.get('/:stalker_id/notifications', getNotifications)
+router.get('/:stalker_id/read', readNotifications)
+router.get('/:stalker_id/add/:target_id', addTarget)
+router.get('/:stalker_id/remove/:target_id', removeTarget)
+router.get('/:stalker_id/name/:target_id', getTargetName)
+module.exports = router

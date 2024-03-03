@@ -1,0 +1,55 @@
+.target-remove {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.target-add {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: $green-light;
+    cursor: pointer;
+}
+
+.target {
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    > * {
+        margin-top: 15px;
+        white-space: nowrap;
+    }
+}
+
+.target-name {
+    font-weight: bold;
+}
+
+.target-id {
+    font-style: italic;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid $grey-dark;
+    background-color: $black;
+    outline: none;
+    color: $white;
+    font-family: 'Roboto Mono', Courier, monospace;
+    font-size: 15px;
+    width: 95%;
+
+    &::placeholder {
+        color: $grey-dark;
+        font-style: italic;
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "stalkify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "commander": "^12.0.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.3",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.5.3",
+    "node-fetch": "^2.7.0",
+    "path": "^0.12.7",
+    "querystring": "^0.2.1",
+    "request": "^2.88.2"
+  }
+}

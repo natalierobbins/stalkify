@@ -1,0 +1,75 @@
+/* ---------------------------------- fonts --------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@400;500&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+/* --------------------------------- colors --------------------------------- */
+$grey: #867E77;
+$grey-dark: #4D4945;
+$red: #E37682;
+$green: #A5D5A8;
+$green-dark: #226137;
+$green-light: #1EA24B;
+$purple: #A57682;
+$purple-light: #D6CACD;
+$purple-dark: #3C292D;
+$black: #1D1919;
+$white: #E9EED5;
+$red-light: #E43A2F;
+$red-dark: #A43831;
+
+/* ------------------------------- breakpoints ------------------------------ */
+$mobile-max: 480px;
+$desktop-min: 950px;
+$condensed-max: 700px;
+
+/* --------------------------------- styles --------------------------------- */
+.-full-width {
+    width: 100%;
+}
+
+.-flex {
+    display: flex;
+}
+
+.-col {
+    flex-direction: column;
+}
+
+.-jc-c {
+    justify-content: center;
+}
+
+.-jc-sa {
+    justify-content: space-around;
+}
+
+.-jc-sb {
+    justify-content: space-between;
+}
+
+.-jc-end {
+    justify-content: flex-end;
+}
+
+.-al-c {
+    align-items: center;
+}
+
+.-wrap {
+    flex-wrap: wrap;
+}
+
+.-gap5 {
+    gap: 5px;
+}
+
+.-gap10 {
+    gap: 10px;
+}
+
+.-gap15 {
+    gap: 15px;
+}
+
+.-gap20 {
+    gap: 20px;
+}

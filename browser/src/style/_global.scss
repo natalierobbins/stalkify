@@ -1,0 +1,78 @@
+body {
+    background-color: $black;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Mono', Courier, monospace;
+    color: $grey;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: $white;
+    transition: all 1s ease;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+    transition: all 1s ease;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 0px;
+    font-size: 40px;
+    color: $white;
+    transition: all 1s ease;
+    font-family: 'Kufam', Courier, monospace;
+
+    @media (max-width: $condensed-max) {
+        font-size: 25px;
+    }
+
+    @media (max-width: $mobile-max) {
+        font-size: 20px;
+    }
+}
+
+.apple {
+    background-color: $red;
+}
+
+.spotify {
+    background-color: $green;
+}
+
+.button {
+    border: 0.5px solid $grey;
+    color: $white;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    gap: 10px;
+    font-weight: 200;
+}
+
+a:hover {
+    letter-spacing: 1px;
+}
+
+#eye-header {
+    height: 50px;
+}
+

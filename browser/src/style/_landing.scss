@@ -1,0 +1,38 @@
+#landing-wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    gap: 50px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#logo-landing {
+    height: 250px;
+}
+
+#log-in-wrapper {
+
+    @media (max-width: $mobile-max) {
+        font-size: 15px;
+        width: 300px;
+    }
+
+    gap: 30px;
+    font-size: 20px;
+    font-weight:400;
+    width: 330px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.log-in-link {
+    color: $grey;
+    font-weight: 200;
+    text-align: center;
+}
